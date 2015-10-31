@@ -13,4 +13,8 @@ public class FHelper {
         };
     }
 
+    public static void main(String args[]) {
+        o((Integer a) -> 2 * a, (Integer b) -> b + 2);
+    }
+
 }
